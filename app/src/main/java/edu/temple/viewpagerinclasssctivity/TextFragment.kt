@@ -43,7 +43,8 @@ class TextFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         param1.run{
-            textView.text =
+            textView.text = this
+
         }
     }
 
